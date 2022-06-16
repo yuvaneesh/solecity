@@ -1,0 +1,207 @@
+h1{
+    text-align: center;
+}
+
+
+/*--====GENERAL REPORT====--*/
+.general{
+    margin: 1.5rem 1.5rem;
+}
+
+.general__container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+    padding: 10px;
+}
+
+.general__item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 18px;
+    text-align: left;
+}
+
+.general__icon{
+    font-size:40px;
+    color: rgb(73, 73, 240);
+}
+
+
+.arrow__up{
+    float:right;
+    color: green;
+    font-size:40px;
+}
+
+.arrow__down{
+    float:right;
+    color: red;
+    font-size:40px;
+}
+
+
+
+
+
+/*--====SALES REPORT====--*/
+.sales__report{
+    margin: 1.5rem 1.5rem;
+}
+
+
+.sales__container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    height:350px;
+}
+
+.sales__item {
+    
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+.statistics {
+    width: 400px;
+    position: relative;
+    transition: transform .2s; 
+    left:10px;
+}
+
+
+.statistics:hover {
+    transform: scale(1.2); 
+}
+
+
+
+
+
+/*--====MAP====--*/
+.map{
+    margin: 1.5rem 1.5rem;
+}
+
+.map__container{
+    position: relative;
+    height: 450px;
+}
+
+.map__pic{
+    position: absolute;
+    width: 500px;
+}
+
+.top__table{
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 15px;
+    border-spacing: 1;
+    
+    
+    overflow: hidden;
+    width: ;
+    float: right;
+}
+
+.top__table img{
+    width:130px;
+    height:130px;
+}
+
+.crown__icon{
+    color:gold;
+    font-size:25px;
+}
+
+
+
+
+
+/*--====REGISTERED USERS BASED ON COUNTRY====--*/
+
+.users{
+    margin: 1.5rem 1.5rem;
+}
+
+.users__container{
+    height:480px;
+    position: relative;
+}
+
+
+.users__table{
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 15px;
+    border-spacing: 1;
+    background: white;
+    
+    overflow: hidden;
+    width: 70%;
+    float: left;
+}
+
+th, td {
+    border: 1px solid #d5d5d5;
+    padding: 10px;
+}
+
+.flag__icon img{
+    width:26px;
+    height:17px;
+}
+
+* {
+    box-sizing: border-box
+}
+
+.bar__container {
+  width: 280px;
+  background-color: #ddd;
+  border-radius: 8px;
+}
+
+.bar__performance {
+  text-align: right;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  color: white;
+  border-radius: 8px;
+  
+}
+
+.most {width: 90%; background-color: #4CAF50;}
+.more {width: 80%; background-color: #2196F3;}
+.medium {width: 65%; background-color: #eeb55f;}
+.less {width: 50%; background-color: #f44336;}
+
+
+
+
+
+/*--====SOCIAL MEDIA====--*/
+
+.social__table{
+    border-collapse: collapse;
+    margin:auto;
+    font-size: 15px;
+    border-spacing: 1;
+    
+    
+    overflow: hidden;
+    width: 25%;
+    float: right;
+}
+
+.social__img{
+    width:167px;
+    height:81px;
+    text-align: center;
+    margin: auto;
+}

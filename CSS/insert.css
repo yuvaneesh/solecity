@@ -1,0 +1,52 @@
+h1{
+    text-align: center;
+}
+
+form{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+  
+  
+label{
+    font-size:22px;
+} 
+
+input[type=text], input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+i{
+    font-size:22px;
+}
+
+
+#form input[type="submit"],
+#form input[type="reset"]  {
+    background: black;
+    border: 0;
+    width: 100px;
+    height: 40px;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    
+    
+}
+
+#form input[type="submit"]:hover,
+#form input[type="reset"]:hover {
+    background: #606468;
+}
+
+#form input[type="submit"]{
+    margin-left: 42%;
+}

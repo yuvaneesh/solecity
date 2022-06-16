@@ -1,0 +1,119 @@
+/*----------------- SHOPPING CART PAGE -----------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cart__container{
+    margin: 0 auto;
+    height: 700px;
+}
+
+.products-container {
+    max-width: 650px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+  
+.products-container ion-icon {
+    font-size: 25px;
+    color: lightblue;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+  
+.product-header {
+    width: 100%;
+    max-width: 650px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 4px solid lightblue;
+    margin: 0 auto;
+}
+  
+.product-title {
+    width: 45%;
+}
+  
+.price {
+    width: 15%;
+    border-bottom: 1px solid lightblue;
+    display: flex;
+    align-items: center;
+}
+  
+.quantity {
+    width: 30%;
+    border-bottom: 1px solid lightblue;
+    display: flex;
+    align-items: center;
+}
+  
+.total {
+    width: 10%;
+    border-bottom: 1px solid lightblue;
+    display: flex;
+    align-items: center;
+}
+  
+.product {
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid lightblue;
+}
+  
+.product ion-icon {
+    cursor: pointer;
+}
+  
+.products {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.products img {
+    width: 75px;
+}
+  
+.basketTotalContainer {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px 0;
+}
+  
+.basketTotalTitle {
+    width: 30%;
+}
+  
+.basketTotal {
+    width: 10%;
+}
+  
+.common-btn{
+    padding: 12px 30px;
+    background: transparent;
+    outline: none;
+    border: 1px solid #00BFFF;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 0px 2px #00BFFF;
+    transition: box-shadow 0.6s linear;
+    margin: 0.1em;
+    position: absolute;
+    margin-left: 905px;
+  
+}
+  
+.common-btn:hover { 
+    box-shadow: 0px 0px 0px 6px #FC5185; 
+}
